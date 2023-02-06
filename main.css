@@ -14,9 +14,14 @@ header {
     color: #fff;
 }
 
+html {
+    background-color: #ffffff;
+}
+
 body {
     background-color: #ffffff;
-    overflow-x: hidden
+    overflow-x: hidden;
+    max-width: 100%;
 }
 
 header h1 a {
