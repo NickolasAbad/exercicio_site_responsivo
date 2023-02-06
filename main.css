@@ -16,6 +16,7 @@ header {
 
 body {
     background-color: #ffffff;
+    overflow-x: hidden
 }
 
 header h1 a {
@@ -110,6 +111,10 @@ button {
 
 @media screen and (max-width: 767px) {
 
+    header {
+        max-width: 100%;
+    }
+
     .sobre .container {
         display: block;
     }
@@ -142,6 +147,10 @@ button {
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
+
+    header {
+        max-width: 100%;
+    }
 
     .sobre .container {
         display: block;
